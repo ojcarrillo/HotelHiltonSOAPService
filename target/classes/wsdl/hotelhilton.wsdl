@@ -21,7 +21,8 @@
 					<xsd:sequence>
 						<xsd:element minOccurs="0" name="estado" type="xsd:string" />
 						<xsd:element minOccurs="0" name="motivoEstado" type="xsd:string" />
-						<xsd:element minOccurs="0" name="fecha" type="xsd:dateTime" />
+						<xsd:element minOccurs="0" name="fechaRespuesta" type="xsd:dateTime" />
+						<xsd:element minOccurs="0" name="codigoEstado" type="xsd:string" />
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
@@ -35,34 +36,45 @@
 			<xsd:element name="obtenerReservaResponse">
 				<xsd:complexType>
 					<xsd:sequence>
-						<xsd:element minOccurs="0" name="idViaje" type="xsd:string"/>
+						<xsd:element minOccurs="0" name="idReserva" type="xsd:string"/>
+						<xsd:element minOccurs="0" name="idHabitacion" type="xsd:string"/>
+						<xsd:element minOccurs="0" name="fechaIngreso" type="xsd:date"/>
 						<xsd:element minOccurs="0" name="fechaSalida" type="xsd:date"/>
-						<xsd:element minOccurs="0" name="ciudadOrigen" type="xsd:string"/>
-						<xsd:element minOccurs="0" name="ciudadDestino" type="xsd:string"/>
-						<xsd:element minOccurs="0" name="puestos" type="xsd:string"/>
+						<xsd:element minOccurs="0" name="ciudad" type="xsd:string"/>
+						<xsd:element minOccurs="0" name="hotel" type="xsd:string"/>
+						<xsd:element minOccurs="0" name="habitacion" type="xsd:string"/>
+						<xsd:element minOccurs="0" name="estado" type="xsd:string" />
+						<xsd:element minOccurs="0" name="motivoEstado" type="xsd:string" />
+						<xsd:element minOccurs="0" name="fechaRespuesta" type="xsd:dateTime" />
+						<xsd:element minOccurs="0" name="codigoEstado" type="xsd:string" />
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
 			<xsd:element name="realizarReserva">
 				<xsd:complexType>
 					<xsd:sequence>
-						<xsd:element minOccurs="0" name="fechaInicio" type="xsd:date"/>
-						<xsd:element minOccurs="0" name="ciudadOrigen" type="xsd:string"/>
-						<xsd:element minOccurs="0" name="ciudadDestino" type="xsd:string"/>
-						<xsd:element minOccurs="0" name="puestos" type="xsd:string"/>
+						<xsd:element minOccurs="0" name="fechaIngreso" type="xsd:date"/>
+						<xsd:element minOccurs="0" name="fechaSalida" type="xsd:date"/>
+						<xsd:element minOccurs="0" name="ciudad" type="xsd:string"/>
+						<xsd:element minOccurs="0" name="hotel" type="xsd:string"/>
+						<xsd:element minOccurs="0" name="habitacion" type="xsd:string"/>
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
 			<xsd:element name="realizarReservaResponse">
 				<xsd:complexType>
 						<xsd:sequence>
-							<xsd:element minOccurs="0" name="idViaje" type="xsd:string"/>
+							<xsd:element minOccurs="0" name="idReserva" type="xsd:string"/>
+							<xsd:element minOccurs="0" name="idHabitacion" type="xsd:string"/>
+							<xsd:element minOccurs="0" name="fechaIngreso" type="xsd:date"/>
 							<xsd:element minOccurs="0" name="fechaSalida" type="xsd:date"/>
-							<xsd:element minOccurs="0" name="ciudadOrigen" type="xsd:string"/>
-							<xsd:element minOccurs="0" name="ciudadDestino" type="xsd:string"/>
-							<xsd:element minOccurs="0" name="puestos" type="xsd:string"/>
-							<xsd:element minOccurs="0" name="estado" type="xsd:string"/>
-							<xsd:element minOccurs="0" name="motivoEstado" type="xsd:string"/>
+							<xsd:element minOccurs="0" name="ciudad" type="xsd:string"/>
+							<xsd:element minOccurs="0" name="hotel" type="xsd:string"/>
+							<xsd:element minOccurs="0" name="habitacion" type="xsd:string"/>
+							<xsd:element minOccurs="0" name="estado" type="xsd:string" />
+							<xsd:element minOccurs="0" name="motivoEstado" type="xsd:string" />
+							<xsd:element minOccurs="0" name="fechaRespuesta" type="xsd:dateTime" />
+							<xsd:element minOccurs="0" name="codigoEstado" type="xsd:string" />
 						</xsd:sequence>
 					</xsd:complexType>
 			</xsd:element>

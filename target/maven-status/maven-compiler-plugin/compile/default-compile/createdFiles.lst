@@ -2,6 +2,8 @@ org\example\demo\ObtenerReserva.class
 org\example\demo\package-info.class
 org\example\demo\RealizarReservaResponse.class
 org\example\demo\CancelarReservaResponse.class
+co\com\javeriana\soap\integracion\ftp\FTPInvoker.class
+co\com\javeriana\soap\integracion\util\Utils.class
 co\com\javeriana\soap\integracion\HotelHiltonSOAPService\SoapService.class
 org\example\demo\ConsultarItinerariosResponse$Itinerarios.class
 org\example\demo\ConsultarItinerarios.class
