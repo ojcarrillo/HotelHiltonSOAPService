@@ -1,21 +1,17 @@
 package co.com.javeriana.soap.integracion.HotelHiltonSOAPService;
 
-import java.io.IOException;
 import java.text.ParseException;
 import java.util.Date;
 
 import org.apache.camel.Exchange;
 import org.apache.commons.lang3.StringUtils;
-import org.example.demo.CancelarReserva;
-import org.example.demo.CancelarReservaResponse;
-import org.example.demo.ObtenerReserva;
-import org.example.demo.ObtenerReservaResponse;
-import org.example.demo.RealizarReserva;
-import org.example.demo.RealizarReservaResponse;
+import org.hotelhilton.demo.CancelarReserva;
+import org.hotelhilton.demo.CancelarReservaResponse;
+import org.hotelhilton.demo.ObtenerReserva;
+import org.hotelhilton.demo.ObtenerReservaResponse;
+import org.hotelhilton.demo.RealizarReserva;
+import org.hotelhilton.demo.RealizarReservaResponse;
 import org.springframework.stereotype.Component;
-
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 import co.com.javeriana.soap.integracion.ftp.FTPInvoker;
 import co.com.javeriana.soap.integracion.util.Utils;

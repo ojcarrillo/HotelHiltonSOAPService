@@ -21,7 +21,7 @@ import org.apache.commons.net.ftp.FTPClient;
 
 public class FTPInvoker {
 
-	static String server = "35.203.93.92";
+	static String server = "localhost";
 	static Integer port = 3021;
 	static String user = "touresbalon";
 	static String pass = "verysecretpwd";
